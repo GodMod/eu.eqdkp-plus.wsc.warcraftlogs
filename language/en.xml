@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/tornado/language.xsd" languagecode="en">
+
+	<category name="wcf.warcraftlogs">
+		<item name="wcf.warcraftlogs.boxError"><![CDATA[An error has occured.]]></item>
+	</category>
+
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.eu.eqdkp-plus.wsc.warcraftlogs.logBox"><![CDATA[Warcraftlogs Box]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.warcraftlogs"><![CDATA[Warcraftlogs]]></item>
+		<item name="wcf.acp.option.category.warcraftlogs.box"><![CDATA[Box]]></item>
+
+		<item name="wcf.acp.option.warcraftlogs_guildname"><![CDATA[Guildname]]></item>
+		<item name="wcf.acp.option.warcraftlogs_servername"><![CDATA[Servername]]></item>
+		<item name="wcf.acp.option.warcraftlogs_region"><![CDATA[Serverregion]]></item>
+		<item name="wcf.acp.option.warcraftlogs_apikey"><![CDATA[API-Key from Warcraftlogs]]></item>
+		<item name="wcf.acp.option.warcraftlogs_apikey.description"><![CDATA[You can create a new Key at https://www.warcraftlogs.com/profile.]]></item>
+		<item name="wcf.acp.option.warcraftlogs_type"><![CDATA[Version]]></item>
+		<item name="wcf.acp.option.warcraftlogs_count"><![CDATA[Number of shown entries]]></item>
+	</category>
+
+</language>

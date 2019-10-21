@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/box.xsd">
+	<import>
+
+		<box identifier="eu.eqdkp-plus.wsc.warcraftlogs.logBox">
+			<name language="en">Warcraftlogs</name>
+			<name language="de">Warcraftlogs</name>
+			<boxType>system</boxType>
+			<objectType>eu.eqdkp-plus.wsc.warcraftlogs.logBox</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>1</visibleEverywhere>
+			<content language="en">
+				<title>Last Fightlogs</title>
+			</content>
+			<content language="de">
+				<title>Letzte Kampflogs</title>
+			</content>
+		</box>
+
+	</import>
+</data>

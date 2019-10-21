@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+    <import>
+        <categories>
+			<category name="warcraftlogs">
+				<parent></parent>
+			</category>
+			<category name="warcraftlogs.box">
+				<parent>warcraftlogs</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="warcraftlogs_guildname">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="warcraftlogs_servername">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="warcraftlogs_region">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>select</optiontype>
+				<selectoptions>eu:EU
+us:US
+tw:TW
+kr:KR
+				</selectoptions>
+				<defaultvalue>eu</defaultvalue>
+			</option>
+			<option name="warcraftlogs_apikey">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+			<option name="warcraftlogs_type">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>select</optiontype>
+				<selectoptions>retail:Retail
+classic:Classic
+				</selectoptions>
+				<defaultvalue>retail</defaultvalue>
+			</option>
+			<option name="warcraftlogs_count">
+				<categoryname>warcraftlogs.box</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+			</option>
+		</options>
+    </import>
+</data>

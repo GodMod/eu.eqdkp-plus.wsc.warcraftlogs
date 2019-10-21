@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="eu.eqdkp-plus.wsc.warcraftlogs" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+	<packageinformation>
+		<packagename>Warcraftlogs</packagename>
+		<packagedescription>Adds a Box for displaying the latest Warcraftlogs.</packagedescription>
+		<packagedescription language="de">Fügt eine Box hinzu, welche die letzten Warcraftlogs anzeigt.</packagedescription>
+		<version>1.0.0</version>
+		<date>2019-10-20</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author>GodMod</author>
+		<authorurl>https://wsc.eqdkp-plus.eu</authorurl>
+	</authorinformation>
+
+	<compatibility>
+		<api version="2018"/>
+	</compatibility>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<instruction type="option"/>
+		<instruction type="file"/>
+		<instruction type="objectType"/>
+		<instruction type="box"/>
+		<instruction type="template"/>
+		<instruction type="language"/>
+	</instructions>
+	
+</package>

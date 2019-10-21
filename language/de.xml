@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/tornado/language.xsd" languagecode="de">
+
+	<category name="wcf.warcraftlogs">
+		<item name="wcf.warcraftlogs.boxError"><![CDATA[Ein Fehler ist aufgetreten.]]></item>
+	</category>
+
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.eu.eqdkp-plus.wsc.warcraftlogs.logBox"><![CDATA[Warcraftlogs Box]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.warcraftlogs"><![CDATA[Warcraftlogs]]></item>
+		<item name="wcf.acp.option.category.warcraftlogs.box"><![CDATA[Box]]></item>
+
+		<item name="wcf.acp.option.warcraftlogs_guildname"><![CDATA[Gildenname]]></item>
+		<item name="wcf.acp.option.warcraftlogs_servername"><![CDATA[Servername]]></item>
+		<item name="wcf.acp.option.warcraftlogs_region"><![CDATA[Serverregion]]></item>
+		<item name="wcf.acp.option.warcraftlogs_apikey"><![CDATA[API-Schlüssel von Warcraftlogs]]></item>
+		<item name="wcf.acp.option.warcraftlogs_apikey.description"><![CDATA[Dieser kann unter https://www.warcraftlogs.com/profile erzeugt werden.]]></item>
+		<item name="wcf.acp.option.warcraftlogs_type"><![CDATA[Version]]></item>
+		<item name="wcf.acp.option.warcraftlogs_count"><![CDATA[Anzahl an Einträgen]]></item>
+	</category>
+
+</language>
