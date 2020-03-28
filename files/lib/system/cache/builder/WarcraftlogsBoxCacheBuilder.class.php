@@ -9,8 +9,8 @@ use wcf\system\exception\SystemException;
  * Cachebuilder for the WoW Realmstatus Box
  *
  * @author		GodMod
- * @copyright	2019 GodMod / EQdkp Plus Team
- * @license		AGPLv3 <https://eqdkp-plus.eu/en/about/license-agpl.html>
+ * @copyright	2020 GodMod / EQdkp Plus Team
+ * @license		GMLv1 <https://wsc-docs.eqdkp-plus.eu/license.html>
  */
 class WarcraftlogsBoxCacheBuilder extends AbstractCacheBuilder {
 
